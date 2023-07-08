@@ -1,0 +1,122 @@
+:root {
+	/* Light */
+	--darkest-color: #f6f5f5;
+	--lightest-title-color: #f6f5f5;
+	--lightest-label-color: #065c6f;
+	--lightest-color: #64958f;
+	--highlight-color: #e8ded2;
+	--bright-color-1: #ee6f57;
+	--bright-color-2: #5eaaa8;
+	--bright-color-3: #00334e;
+	--bright-color-4: #145374;
+	--bright-color-5: #686d76;
+	--bright-color-6: #2E8A99;
+	--twitch: #46458C;
+	--youtube: #CD1818;
+	--tiktok: #27374D;
+	--instagram: #FF8989;
+}
+
+body {
+	background: var(--darkest-color);
+	color: var(--lightest-color);
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 90%;
+	max-width: 1000px;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.circle-shape {
+	width: 140px;
+	height: 140px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 3px solid var(--lightest-color);
+	margin: 0 auto;
+}
+
+.profile-pic {
+	display: inline;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+}
+
+a {
+	color: var(--lightest-label-color);
+	text-decoration: none;
+}
+
+.ig-link {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.link-list-item {
+	border: 1px solid var(--lightest-color);
+	box-sizing: border-box;
+	margin: 20px auto;
+	color: var(--lightest-title-color);
+	padding: 15px;
+	text-align: center;
+	transition: all 0.15s;
+	border-radius: 2px;
+}
+
+.link-list-item:hover,
+a:hover {
+	color: var(--highlight-color);
+	border-color: var(--highlight-color);
+	text-shadow: 0 0 2em var(--highlight-color);
+}
+
+.icon-list-img {
+	height: 50px;
+	width: 50px;
+	margin: 3px;
+}
+.twitch-icon-list-img {
+	height: 47px;
+	width: 47px;
+	margin: 3px;
+}
+
+.dark {
+	background: var(--bright-color-1);
+}
+
+.medium {
+	background: var(--bright-color-2);
+}
+
+.light-lk {
+	background: var(--bright-color-3);
+}
+.light-1 {
+	background: var(--bright-color-4);
+}
+.light-2 {
+	background: var(--bright-color-6);
+}
+.youtube {
+	background: var(--youtube);
+}
+.twitch {
+	background: var(--twitch);
+}
+.tiktok {
+	background: var(--tiktok);
+}
+.instagram {
+	background: var(--instagram);
+}
+.twitch-2 {
+	background: var(--bright-color-5);
+}
